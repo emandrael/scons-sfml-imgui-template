@@ -1,5 +1,6 @@
 import fnmatch
 import os
+from pkg_resources import Environment
 import scons_compiledb
 
 #Setup environment
@@ -26,7 +27,6 @@ matches.append(os.path.join('dependencies/imgui/imgui_draw.cpp'))
 matches.append(os.path.join('dependencies/imgui/imgui_demo.cpp'))
 matches.append(os.path.join('dependencies/imgui/imgui_tables.cpp'))
 matches.append(os.path.join('dependencies/imgui/imgui-SFML.cpp'))
-
 
 scons_compiledb.enable(env);
 
