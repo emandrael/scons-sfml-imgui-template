@@ -1,0 +1,42 @@
+[
+  {
+    "command": "g++ -o dependencies/imgui-sfml/imgui-SFML.o -c -std=c++0x -I/opt/homebrew/Cellar/sfml/2.6.1/include -I/opt/homebrew/Cellar/glfw/3.4/include/Users/playwright/Projects/cpp-tutorials/sfml-imgui/dependencies/imgui -Idependencies/imgui-sfml dependencies/imgui-sfml/imgui-SFML.cpp",
+    "directory": "/Users/playwright/Projects/cpp-tutorials/sfml-imgui",
+    "file": "dependencies/imgui-sfml/imgui-SFML.cpp"
+  },
+  {
+    "directory": "/Users/playwright/Projects/cpp-tutorials/sfml-imgui",
+    "file": "dependencies/imgui/imgui-SFML.cpp",
+    "command": "g++ -o dependencies/imgui/imgui-SFML.o -c -std=c++17 -I/opt/homebrew/Cellar/sfml/2.6.1/include -I/opt/homebrew/Cellar/glew/2.2.0_1/include -Idependencies/imgui dependencies/imgui/imgui-SFML.cpp"
+  },
+  {
+    "directory": "/Users/playwright/Projects/cpp-tutorials/sfml-imgui",
+    "file": "dependencies/imgui/imgui.cpp",
+    "command": "g++ -o dependencies/imgui/imgui.o -c -std=c++17 -I/opt/homebrew/Cellar/sfml/2.6.1/include -I/opt/homebrew/Cellar/glew/2.2.0_1/include -Idependencies/imgui dependencies/imgui/imgui.cpp"
+  },
+  {
+    "directory": "/Users/playwright/Projects/cpp-tutorials/sfml-imgui",
+    "file": "dependencies/imgui/imgui_demo.cpp",
+    "command": "g++ -o dependencies/imgui/imgui_demo.o -c -std=c++17 -I/opt/homebrew/Cellar/sfml/2.6.1/include -I/opt/homebrew/Cellar/glew/2.2.0_1/include -Idependencies/imgui dependencies/imgui/imgui_demo.cpp"
+  },
+  {
+    "directory": "/Users/playwright/Projects/cpp-tutorials/sfml-imgui",
+    "file": "dependencies/imgui/imgui_draw.cpp",
+    "command": "g++ -o dependencies/imgui/imgui_draw.o -c -std=c++17 -I/opt/homebrew/Cellar/sfml/2.6.1/include -I/opt/homebrew/Cellar/glew/2.2.0_1/include -Idependencies/imgui dependencies/imgui/imgui_draw.cpp"
+  },
+  {
+    "directory": "/Users/playwright/Projects/cpp-tutorials/sfml-imgui",
+    "file": "dependencies/imgui/imgui_tables.cpp",
+    "command": "g++ -o dependencies/imgui/imgui_tables.o -c -std=c++17 -I/opt/homebrew/Cellar/sfml/2.6.1/include -I/opt/homebrew/Cellar/glew/2.2.0_1/include -Idependencies/imgui dependencies/imgui/imgui_tables.cpp"
+  },
+  {
+    "directory": "/Users/playwright/Projects/cpp-tutorials/sfml-imgui",
+    "file": "dependencies/imgui/imgui_widgets.cpp",
+    "command": "g++ -o dependencies/imgui/imgui_widgets.o -c -std=c++17 -I/opt/homebrew/Cellar/sfml/2.6.1/include -I/opt/homebrew/Cellar/glew/2.2.0_1/include -Idependencies/imgui dependencies/imgui/imgui_widgets.cpp"
+  },
+  {
+    "directory": "/Users/playwright/Projects/cpp-tutorials/sfml-imgui",
+    "file": "src/main.cpp",
+    "command": "g++ -o src/main.o -c -std=c++17 -I/opt/homebrew/Cellar/sfml/2.6.1/include -I/opt/homebrew/Cellar/glew/2.2.0_1/include -Idependencies/imgui src/main.cpp"
+  }
+]
